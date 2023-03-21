@@ -1,6 +1,5 @@
-
-const Relay = require('./lib/relay')
-const RelayPool = require('./lib/relay-pool')
+const Relay = require('./lib/relay.js')
+const RelayPool = require('./lib/relay-pool.js')
 const noble = require('noble-secp256k1')
 const crypto = require('crypto')
 
